@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
- class NpmEventCompClass extends Component {    
+ class DdtEventCompClass extends Component {    
 
-   npm_Func1 = ()=>{
+   ddt_Func1 = ()=>{
         alert("Hàm không có tham số")
     }
 
@@ -14,12 +14,12 @@ import React, { Component } from 'react'
         return (
             <div>
                 <h2>Event in class component</h2>
-                <button onClick={this.npm_Func1}>Click</button>
-                <button onClick={()=>this.npm_Func2("Nguyễn Phi Mạnh")}>Click Param</button>
+                <button onClick={this.ddt_Func1}>Click</button>
+                <button onClick={()=>this.ddt_Func2("Đỗ Đăng Tâm")}>Click Param</button>
             </div>
         );
     }
 }
 
 
-export default NpmEventCompClass;
+export default DdtEventCompClass;

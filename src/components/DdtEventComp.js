@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function NpmEventComp() {
+export default function DdtEventComp() {
    const npm_Func1 = ()=>{
         alert("Xin chào")
     }
@@ -16,7 +16,7 @@ export default function NpmEventComp() {
             {/* <button onClick={tvc_Func1()}>Click Here</button>ss */}
 
             {/* gọi hàm có tham số */}
-            <button onClick={()=>npm_Func2('Phi Mạnh')}>Click Here Param</button>
+            <button onClick={()=>ddt_Func2('Đăng Tâm')}>Click Here Param</button>
 
         </div>
     )

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
- class NpmEventForm1 extends Component {
+ class DdtEventForm1 extends Component {
    constructor(props){
         super(props);
         this.state = {
@@ -44,4 +44,4 @@ import React, { Component } from 'react'
     }
 }
 
-export default NpmEventForm1;
+export default DdtEventForm1;
